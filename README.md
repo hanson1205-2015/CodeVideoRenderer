@@ -99,4 +99,4 @@ Full documentation and examples available at <https://codevideorenderer.readthed
 
 ## 🤝 Contact Us
 
-Found any issues? Please send them to [my email](mailto:zhuchongjing_pypi@163.com). We'll fix them as soon as possible.
+Found any issues? Please send them to my [163 email](mailto:zhuchongjing_pypi@163.com) or [Gmail email](mailto:github.exploremaths@gmail.com). We'll fix them as soon as possible.
