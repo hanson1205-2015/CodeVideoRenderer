@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CodeVideoRenderer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-16 18:59+0800\n"
+"POT-Creation-Date: 2026-05-18 20:27+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: zh_CN <LL@li.org>\n"
@@ -57,25 +57,18 @@ msgstr "**日期**：2026年5月4日"
 msgid "See details at https://pypi.org/project/codevideorenderer/1.2.3/."
 msgstr "详情请见 https://pypi.org/project/codevideorenderer/1.2.3/。"
 
-#: ../../changelog.rst:19 ../../changelog.rst:53 ../../changelog.rst:69
-#: ../../changelog.rst:131 ../../changelog.rst:143 ../../changelog.rst:177
-#: ../../changelog.rst:193 ../../changelog.rst:205 ../../changelog.rst:219
-#: ../../changelog.rst:237 ../../changelog.rst:249 ../../changelog.rst:265
-#: ../../changelog.rst:277 ../../changelog.rst:291 ../../changelog.rst:303
-#: ../../changelog.rst:319 ../../changelog.rst:333 ../../changelog.rst:347
-#: ../../changelog.rst:359 ../../changelog.rst:373 ../../changelog.rst:391
-msgid "What's Changed"
-msgstr "变更内容"
+#: ../../changelog.rst:19 ../../changelog.rst:79 ../../changelog.rst:152
+#: ../../changelog.rst:192 ../../changelog.rst:395 ../../changelog.rst:436
+#: ../../changelog.rst:464 ../../changelog.rst:495 ../../changelog.rst:520
+#: ../../changelog.rst:546 ../../changelog.rst:568 ../../changelog.rst:623
+msgid "Additions"
+msgstr "新增"
 
-#: ../../changelog.rst:22 ../../changelog.rst:72
-msgid "**Additions 🚀**"
-msgstr "**新增 🚀**"
-
-#: ../../changelog.rst:24
+#: ../../changelog.rst:22
 msgid "Added ``moviepy`` version requirement ``<2.0.0`` for Python 3.8"
 msgstr "为 Python 3.8 添加 ``moviepy`` 版本要求 ``<2.0.0``"
 
-#: ../../changelog.rst:25
+#: ../../changelog.rst:24
 msgid ""
 "Added ``typing-extensions`` dependency with a minimum required version of "
 "``4.0.0``"
@@ -87,12 +80,12 @@ msgid ""
 "``0.4.0``"
 msgstr "添加 ``imageio-ffmpeg`` 依赖，最低版本要求 ``0.4.0``"
 
-#: ../../changelog.rst:27
+#: ../../changelog.rst:28
 msgid ""
 "Added ``typeguard`` dependency with a minimum required version of ``3.0``"
 msgstr "添加 ``typeguard`` 依赖，最低版本要求 ``3.0``"
 
-#: ../../changelog.rst:28
+#: ../../changelog.rst:30
 msgid ""
 "Added import of ``annotations`` (from ``__future__``) in ``typing.py`` and "
 "``utils.py`` for compatibility with Python 3.8, 3.9"
@@ -100,47 +93,53 @@ msgstr ""
 "在 ``typing.py`` 和 ``utils.py`` 中添加 ``annotations``\\ （来自 "
 "``__future__``）导入，以兼容 Python 3.8、3.9"
 
-#: ../../changelog.rst:30 ../../changelog.rst:56 ../../changelog.rst:95
-msgid "**Changes 🧹**"
-msgstr "**变更 🧹**"
+#: ../../changelog.rst:32 ../../changelog.rst:65 ../../changelog.rst:102
+#: ../../changelog.rst:163 ../../changelog.rst:197 ../../changelog.rst:214
+#: ../../changelog.rst:226 ../../changelog.rst:243 ../../changelog.rst:273
+#: ../../changelog.rst:307 ../../changelog.rst:336 ../../changelog.rst:352
+#: ../../changelog.rst:400 ../../changelog.rst:412 ../../changelog.rst:441
+#: ../../changelog.rst:473 ../../changelog.rst:500 ../../changelog.rst:526
+#: ../../changelog.rst:553 ../../changelog.rst:578 ../../changelog.rst:628
+msgid "Changes"
+msgstr "变更"
 
-#: ../../changelog.rst:32
+#: ../../changelog.rst:35
 msgid ""
 "Downgraded the minimum required version of the ``manim`` dependency from "
 "``0.20.1`` to ``0.18.0``"
 msgstr "将 ``manim`` 依赖的最低要求版本从 ``0.20.1`` 降级到 ``0.18.0``"
 
-#: ../../changelog.rst:33
+#: ../../changelog.rst:37
 msgid ""
 "Downgraded the minimum required version of the ``numpy`` dependency from "
 "``2.4.2`` to ``1.24.4``"
 msgstr "将 ``numpy`` 依赖的最低要求版本从 ``2.4.2`` 降级到 ``1.24.4``"
 
-#: ../../changelog.rst:34
+#: ../../changelog.rst:39
 msgid ""
 "Downgraded the minimum required version of the ``pillow`` dependency from "
 "``11.2.1`` to ``9.1``"
 msgstr "将 ``pillow`` 依赖的最低要求版本从 ``11.2.1`` 降级到 ``9.1``"
 
-#: ../../changelog.rst:35
+#: ../../changelog.rst:41
 msgid "Downgraded the minimum required Python version from ``3.9`` to ``3.8``"
 msgstr "将最低要求的 Python 版本从 ``3.9`` 降级到 ``3.8``"
 
-#: ../../changelog.rst:36
+#: ../../changelog.rst:43
 msgid ""
 "Modified the import methods of ``TypeAlias``, ``UnionType`` and "
 "``VideoFileClip`` for compatibility with Python 3.8, 3.9"
 msgstr ""
 "修改 ``TypeAlias``、``UnionType`` 和 ``VideoFileClip`` 的导入方式，以兼容 Python 3.8、3.9"
 
-#: ../../changelog.rst:37
+#: ../../changelog.rst:45
 msgid ""
 "Replaced all type annotations in the format of ``type | type`` with "
 "``Union[type, type]`` for compatibility with Python 3.8, 3.9"
 msgstr ""
 "将所有 ``type | type`` 格式的类型注释替换为 ``Union[type, type]``，以兼容 Python 3.8、3.9"
 
-#: ../../changelog.rst:38
+#: ../../changelog.rst:47
 msgid ""
 "Changed all ``PathLike[str]`` to ``PathLike`` (as ``PathLike`` in Python 3.8"
 " does not support generics)"
@@ -148,7 +147,7 @@ msgstr ""
 "将所有 ``PathLike[str]`` 改为 ``PathLike``\\ （因为 Python 3.8 中的 ``PathLike`` "
 "不支持泛型）"
 
-#: ../../changelog.rst:39
+#: ../../changelog.rst:49
 msgid ""
 "Replaced all type annotations in the formats of ``tuple[...]``, "
 "``list[...]`` and ``dict[...]`` with ``Tuple[...]``, ``List[...]`` and "
@@ -157,39 +156,41 @@ msgstr ""
 "将所有 ``tuple[...]``、``list[...]`` 和 ``dict[...]`` 格式的类型注释分别替换为 "
 "``Tuple[...]``、``List[...]`` 和 ``Dict[...]``，以兼容 Python 3.8"
 
-#: ../../changelog.rst:40
+#: ../../changelog.rst:51
 msgid ""
 "Switched the type checker from :func:`typeChecker` to "
 ":func:`typeguard.typechecked`"
 msgstr "将类型检查器从 :func:`typeChecker` 切换为 :func:`typeguard.typechecked`"
 
-#: ../../changelog.rst:42 ../../changelog.rst:120
-msgid "**Deletions 🗑️**"
-msgstr "**删除 🗑️**"
+#: ../../changelog.rst:53 ../../changelog.rst:128 ../../changelog.rst:178
+#: ../../changelog.rst:283 ../../changelog.rst:424 ../../changelog.rst:482
+#: ../../changelog.rst:507 ../../changelog.rst:534 ../../changelog.rst:593
+msgid "Deletions"
+msgstr "删除"
 
-#: ../../changelog.rst:44
+#: ../../changelog.rst:56
 msgid "Removed :func:`checkType` and :func:`typeChecker` from ``utils.py``"
 msgstr "从 ``utils.py`` 中移除 :func:`checkType` 和 :func:`typeChecker`"
 
-#: ../../changelog.rst:47
+#: ../../changelog.rst:59
 msgid "CodeVideoRenderer 1.2.2"
 msgstr "CodeVideoRenderer 1.2.2"
 
-#: ../../changelog.rst:49
+#: ../../changelog.rst:61
 msgid "**Date**: Apr 27, 2026"
 msgstr "**日期**：2026年4月27日"
 
-#: ../../changelog.rst:51
+#: ../../changelog.rst:63
 msgid "See details at https://pypi.org/project/codevideorenderer/1.2.2/."
 msgstr "详情请见 https://pypi.org/project/codevideorenderer/1.2.2/。"
 
-#: ../../changelog.rst:58
+#: ../../changelog.rst:68
 msgid ""
 "Convert all documents (functions, classes, constants) to the "
 "reStructuredText format for better compatibility with Sphinx documentation."
 msgstr "将所有文档（函数、类、常量）转换为 reStructuredText 格式，以更好地兼容 Sphinx 文档。"
 
-#: ../../changelog.rst:60
+#: ../../changelog.rst:70
 msgid ""
 "Change the default value of the ``formatter_style`` parameter in the "
 ":class:`~.CameraFollowCursorCV` class to ``\"material\"``."
@@ -197,23 +198,23 @@ msgstr ""
 "将 :class:`~.CameraFollowCursorCV` 类中 ``formatter_style`` 参数的默认值改为 "
 "``\"material\"``。"
 
-#: ../../changelog.rst:63
+#: ../../changelog.rst:73
 msgid "CodeVideoRenderer 1.2.1"
 msgstr "CodeVideoRenderer 1.2.1"
 
-#: ../../changelog.rst:65
+#: ../../changelog.rst:75
 msgid "**Date**: Mar 22, 2026"
 msgstr "**日期**：2026年3月22日"
 
-#: ../../changelog.rst:67
+#: ../../changelog.rst:77
 msgid "See details at https://pypi.org/project/codevideorenderer/1.2.1/."
 msgstr "详情请见 https://pypi.org/project/codevideorenderer/1.2.1/。"
 
-#: ../../changelog.rst:74
+#: ../../changelog.rst:82
 msgid "Add the :data:`~.__version__` variable to ``__init__.py``"
 msgstr "在 ``__init__.py`` 中添加 :data:`~.__version__` 变量"
 
-#: ../../changelog.rst:76
+#: ../../changelog.rst:84
 msgid ""
 "Add the :data:`~.__all__` variable to ``config.py``, ``renderer.py``, "
 "``typing.py``, and ``utils.py``"
@@ -221,23 +222,23 @@ msgstr ""
 "在 ``config.py``、``renderer.py``、``typing.py`` 和 ``utils.py`` 中添加 "
 ":data:`~.__all__` 变量"
 
-#: ../../changelog.rst:78
+#: ../../changelog.rst:86
 msgid ""
 "Add the :attr:`~.formatter_style` parameter to the "
 ":class:`~.CameraFollowCursorCV` class"
 msgstr "在 :class:`~.CameraFollowCursorCV` 类中添加 :attr:`~.formatter_style` 参数"
 
-#: ../../changelog.rst:80
+#: ../../changelog.rst:88
 msgid "Add beautification for terminal error messages"
 msgstr "为终端错误信息添加美化效果"
 
-#: ../../changelog.rst:82
+#: ../../changelog.rst:90
 msgid ""
 "Add parameter descriptions and type annotations for all functions and "
 "classes"
 msgstr "为所有函数和类添加参数描述和类型注释"
 
-#: ../../changelog.rst:84
+#: ../../changelog.rst:92
 msgid ""
 "Add the :meth:`~.__getattribute__` function to the "
 ":class:`~.CameraFollowCursorCV` class to prevent data modification by "
@@ -246,42 +247,42 @@ msgstr ""
 "在 :class:`~.CameraFollowCursorCV` 类中添加 :meth:`~.__getattribute__` "
 "函数，以防止通过更改属性来修改数据"
 
-#: ../../changelog.rst:86
+#: ../../changelog.rst:94
 msgid "Add the CodeVideoRendererFont font to support Chinese characters"
 msgstr "添加 CodeVideoRendererFont 字体以支持中文字符"
 
-#: ../../changelog.rst:88
+#: ../../changelog.rst:96
 msgid "Add the :data:`~.NOT_AVAILABLE_CHARACTERS` variable to ``config.py``"
 msgstr "在 ``config.py`` 中添加 :data:`~.NOT_AVAILABLE_CHARACTERS` 变量"
 
-#: ../../changelog.rst:90
+#: ../../changelog.rst:98
 msgid ""
 "Add the :class:`~.Parameters` class to the :class:`~.CameraFollowCursorCV` "
 "class for managing and retrieving parameters"
 msgstr ""
 "在 :class:`~.CameraFollowCursorCV` 类中添加 :class:`~.Parameters` 类，用于管理和检索参数"
 
-#: ../../changelog.rst:92
+#: ../../changelog.rst:100
 msgid "Add ``version.py`` to manage package version"
 msgstr "添加 ``version.py`` 以管理包版本"
 
-#: ../../changelog.rst:97
+#: ../../changelog.rst:105
 msgid ""
 "Change the function name format from ``aaa_bbb`` (snake_case) to ``aaaBbb`` "
 "(camelCase)"
 msgstr "将函数命名格式从 ``aaa_bbb``\\ （蛇形命名法）改为 ``aaaBbb``\\ （驼峰命名法）"
 
-#: ../../changelog.rst:99
+#: ../../changelog.rst:107
 msgid "Change the :data:`~.PygmentsLanguage` class to a ``Literal`` type"
 msgstr "将 :data:`~.PygmentsLanguage` 类改为 ``Literal`` 类型"
 
-#: ../../changelog.rst:101
+#: ../../changelog.rst:109
 msgid ""
 "Refactor the ``default_progress_bar`` function into the "
 ":class:`~.DefaultProgressBar` class"
 msgstr "将 ``default_progress_bar`` 函数重构为 :class:`~.DefaultProgressBar` 类"
 
-#: ../../changelog.rst:103
+#: ../../changelog.rst:111
 msgid ""
 "Split ``CameraFollowCursorCVR.py`` into ``renderer.py``, ``typing.py``, and "
 "``utils.py``"
@@ -289,29 +290,33 @@ msgstr ""
 "将 ``CameraFollowCursorCVR.py`` 拆分为 ``renderer.py``、``typing.py`` 和 "
 "``utils.py``"
 
-#: ../../changelog.rst:105
+#: ../../changelog.rst:113
 msgid "Modify the whitespace handling logic to improve rendering speed"
 msgstr "修改空白字符处理逻辑以提高渲染速度"
 
-#: ../../changelog.rst:107
+#: ../../changelog.rst:115
 msgid ""
 "Make partial modifications to the parameters and descriptions of the "
 ":class:`~.CameraFollowCursorCV` class"
 msgstr "对 :class:`~.CameraFollowCursorCV` 类的参数和描述进行部分修改"
 
-#: ../../changelog.rst:109
+#: ../../changelog.rst:117
 msgid "Modify some terminal output content"
 msgstr "修改部分终端输出内容"
 
-#: ../../changelog.rst:111
+#: ../../changelog.rst:119
 msgid "Update the value of :data:`~.CODE_OFFSET` in ``config.py``"
 msgstr "更新 ``config.py`` 中 :data:`~.CODE_OFFSET` 的值"
 
-#: ../../changelog.rst:114
-msgid "**Fixes 🐛**"
-msgstr "**修复 🐛**"
+#: ../../changelog.rst:121 ../../changelog.rst:140 ../../changelog.rst:202
+#: ../../changelog.rst:231 ../../changelog.rst:261 ../../changelog.rst:278
+#: ../../changelog.rst:295 ../../changelog.rst:312 ../../changelog.rst:324
+#: ../../changelog.rst:357 ../../changelog.rst:369 ../../changelog.rst:383
+#: ../../changelog.rst:419 ../../changelog.rst:452
+msgid "Fixes"
+msgstr "修复"
 
-#: ../../changelog.rst:116
+#: ../../changelog.rst:124
 msgid ""
 "Fix the code offset issue caused by `@gaojj2000 "
 "<https://github.com/gaojj2000>`_ in `#5 "
@@ -320,13 +325,13 @@ msgstr ""
 "修复由 `@gaojj2000 <https://github.com/gaojj2000>`_ 在 `#5 "
 "<https://github.com/ExploreMaths/CodeVideoRenderer/pull/5>`_ 中引起的代码偏移问题"
 
-#: ../../changelog.rst:117
+#: ../../changelog.rst:126
 msgid ""
 "Fix the ``code_line_rectangle`` offset issue that occurs when code offset "
 "happens"
 msgstr "修复代码偏移时发生的 ``code_line_rectangle`` 偏移问题"
 
-#: ../../changelog.rst:122
+#: ../../changelog.rst:131
 msgid ""
 "Remove the :data:`~.DEFAULT_CODE_FORMATTER_STYLE`, "
 ":data:`~.AVAILABLE_CHARACTERS`, and :data:`~.EMPTY_CHARACTER` variables from"
@@ -336,19 +341,19 @@ msgstr ""
 ":data:`~.DEFAULT_CODE_FORMATTER_STYLE`、:data:`~.AVAILABLE_CHARACTERS` 和 "
 ":data:`~.EMPTY_CHARACTER` 变量"
 
-#: ../../changelog.rst:125
+#: ../../changelog.rst:134
 msgid "CodeVideoRenderer 1.1.2"
 msgstr "CodeVideoRenderer 1.1.2"
 
-#: ../../changelog.rst:127 ../../changelog.rst:139
+#: ../../changelog.rst:136 ../../changelog.rst:148
 msgid "**Date**: Feb 11, 2026"
 msgstr "**日期**：2026年2月11日"
 
-#: ../../changelog.rst:129
+#: ../../changelog.rst:138
 msgid "See details at https://pypi.org/project/codevideorenderer/1.1.2/."
 msgstr "详情请见 https://pypi.org/project/codevideorenderer/1.1.2/。"
 
-#: ../../changelog.rst:134
+#: ../../changelog.rst:143
 msgid ""
 "Fixed the cursor position error caused by manim uniformly removing leading "
 "spaces on each line (see `#5 "
@@ -357,15 +362,15 @@ msgstr ""
 "修复了 manim 统一移除每行前导空格导致的光标位置错误（详见 `#5 "
 "<https://github.com/ExploreMaths/CodeVideoRenderer/pull/5>`_）。"
 
-#: ../../changelog.rst:137
+#: ../../changelog.rst:146
 msgid "CodeVideoRenderer 1.1.1"
 msgstr "CodeVideoRenderer 1.1.1"
 
-#: ../../changelog.rst:141
+#: ../../changelog.rst:150
 msgid "See details at https://pypi.org/project/codevideorenderer/1.1.1/."
 msgstr "详情请见 https://pypi.org/project/codevideorenderer/1.1.1/。"
 
-#: ../../changelog.rst:146
+#: ../../changelog.rst:155
 msgid ""
 "Added compatibility updates for ``manim==0.19.1`` (see `#3 "
 "<https://github.com/ExploreMaths/CodeVideoRenderer/pull/3>`_ for details)."
@@ -373,26 +378,11 @@ msgstr ""
 "添加对 ``manim==0.19.1`` 的兼容性更新（详见 `#3 "
 "<https://github.com/ExploreMaths/CodeVideoRenderer/pull/3>`_）。"
 
-#: ../../changelog.rst:148
-msgid ""
-"Modified :func:`~.type_checker` to adapt to ``Literal`` and "
-":data:`~.PygmentsLanguage`."
-msgstr ""
-"修改 :func:`~.type_checker` 以适应 ``Literal`` 和 :data:`~.PygmentsLanguage`。"
-
-#: ../../changelog.rst:150
-msgid "Optimized terminal display."
-msgstr "优化终端显示。"
-
-#: ../../changelog.rst:152
+#: ../../changelog.rst:157
 msgid "Added glow effects."
 msgstr "添加发光效果。"
 
-#: ../../changelog.rst:154
-msgid "Integrated ``functions.py`` into ``CameraFollowCursorCVR.py``."
-msgstr "将 ``functions.py`` 整合进 ``CameraFollowCursorCVR.py``。"
-
-#: ../../changelog.rst:156
+#: ../../changelog.rst:159
 msgid ""
 "Adapted to OpenGL rendering and resolved related issues when switching to "
 "OpenGL rendering (see `#4 "
@@ -401,27 +391,34 @@ msgstr ""
 "适配 OpenGL 渲染并解决切换到 OpenGL 渲染时的相关问题（详见 `#4 "
 "<https://github.com/ExploreMaths/CodeVideoRenderer/pull/4>`_）。"
 
-#: ../../changelog.rst:158
+#: ../../changelog.rst:161
 msgid ""
 "Added the ``renderer`` parameter to :class:`~.CameraFollowCursorCV` to "
 "configure the renderer."
 msgstr "向 :class:`~.CameraFollowCursorCV` 添加 ``renderer`` 参数以配置渲染器。"
 
-#: ../../changelog.rst:160
+#: ../../changelog.rst:166
+msgid ""
+"Modified :func:`~.type_checker` to adapt to ``Literal`` and "
+":data:`~.PygmentsLanguage`."
+msgstr ""
+"修改 :func:`~.type_checker` 以适应 ``Literal`` 和 :data:`~.PygmentsLanguage`。"
+
+#: ../../changelog.rst:168
+msgid "Optimized terminal display."
+msgstr "优化终端显示。"
+
+#: ../../changelog.rst:170
+msgid "Integrated ``functions.py`` into ``CameraFollowCursorCVR.py``."
+msgstr "将 ``functions.py`` 整合进 ``CameraFollowCursorCVR.py``。"
+
+#: ../../changelog.rst:172
 msgid ""
 "Adopted the ``timeit`` module to calculate rendering time and eliminate "
 "redundant variables."
 msgstr "采用 ``timeit`` 模块计算渲染时间并消除冗余变量。"
 
-#: ../../changelog.rst:162
-msgid "Removed summary output before rendering the ``Scene``."
-msgstr "移除渲染 ``Scene`` 前的摘要输出。"
-
-#: ../../changelog.rst:164
-msgid "Deleted unused constants in ``config.py``."
-msgstr "删除 ``config.py`` 中未使用的常量。"
-
-#: ../../changelog.rst:166
+#: ../../changelog.rst:174
 msgid ""
 "Changed the type of the ``language`` parameter in "
 ":class:`~.CameraFollowCursorCV` from ``str`` to :data:`~.PygmentsLanguage`."
@@ -429,216 +426,224 @@ msgstr ""
 "将 :class:`~.CameraFollowCursorCV` 中 ``language`` 参数的类型从 ``str`` 改为 "
 ":data:`~.PygmentsLanguage`。"
 
-#: ../../changelog.rst:168
+#: ../../changelog.rst:176
 msgid "Refactored the file structure."
 msgstr "重构文件结构。"
 
-#: ../../changelog.rst:171
+#: ../../changelog.rst:181
+msgid "Removed summary output before rendering the ``Scene``."
+msgstr "移除渲染 ``Scene`` 前的摘要输出。"
+
+#: ../../changelog.rst:183
+msgid "Deleted unused constants in ``config.py``."
+msgstr "删除 ``config.py`` 中未使用的常量。"
+
+#: ../../changelog.rst:186
 msgid "CodeVideoRenderer 1.1.0"
 msgstr "CodeVideoRenderer 1.1.0"
 
-#: ../../changelog.rst:173
+#: ../../changelog.rst:188
 msgid "**Date**: Dec 25, 2025"
 msgstr "**日期**：2025年12月25日"
 
-#: ../../changelog.rst:175
+#: ../../changelog.rst:190
 msgid "See details at https://pypi.org/project/codevideorenderer/1.1.0/."
 msgstr "详情请见 https://pypi.org/project/codevideorenderer/1.1.0/。"
 
-#: ../../changelog.rst:180
-msgid "Revised camera movement logic."
-msgstr "修订镜头移动逻辑。"
-
-#: ../../changelog.rst:182
+#: ../../changelog.rst:195
 msgid "Added opening animation."
 msgstr "添加开场动画。"
 
-#: ../../changelog.rst:184
+#: ../../changelog.rst:200
+msgid "Revised camera movement logic."
+msgstr "修订镜头移动逻辑。"
+
+#: ../../changelog.rst:205
 msgid ""
 "Fixed the issue where output could not be terminated when ``output=False`` "
 "was used in :meth:`~.render`."
 msgstr "修复在 :meth:`~.render` 中使用 ``output=False`` 时无法终止输出的问题。"
 
-#: ../../changelog.rst:187
+#: ../../changelog.rst:208
 msgid "CodeVideoRenderer 1.0.9.post2"
 msgstr "CodeVideoRenderer 1.0.9.post2"
 
-#: ../../changelog.rst:189
+#: ../../changelog.rst:210
 msgid "**Date**: Nov 24, 2025"
 msgstr "**日期**：2025年11月24日"
 
-#: ../../changelog.rst:191
+#: ../../changelog.rst:212
 msgid ""
 "See details at https://pypi.org/project/codevideorenderer/1.0.9.post2/."
 msgstr "详情请见 https://pypi.org/project/codevideorenderer/1.0.9.post2/。"
 
-#: ../../changelog.rst:196
+#: ../../changelog.rst:217
 msgid "Adjusted the spacing between the cursor and characters."
 msgstr "调整光标与字符之间的间距。"
 
-#: ../../changelog.rst:199
+#: ../../changelog.rst:220
 msgid "CodeVideoRenderer 1.0.9.post1"
 msgstr "CodeVideoRenderer 1.0.9.post1"
 
-#: ../../changelog.rst:201
+#: ../../changelog.rst:222
 msgid "**Date**: Nov 17, 2025"
 msgstr "**日期**：2025年11月17日"
 
-#: ../../changelog.rst:203
+#: ../../changelog.rst:224
 msgid ""
 "See details at https://pypi.org/project/codevideorenderer/1.0.9.post1/."
 msgstr "详情请见 https://pypi.org/project/codevideorenderer/1.0.9.post1/。"
 
-#: ../../changelog.rst:208
-msgid "Fixed partial issues with the :func:`~.type_checker` decorator."
-msgstr "修复 :func:`~.type_checker` 装饰器的部分问题。"
-
-#: ../../changelog.rst:210
+#: ../../changelog.rst:229
 #, python-brace-format
 msgid ""
 "Redesigned progress bar style and added a ``{task.completed}/{task.total}`` "
 "field."
 msgstr "重新设计进度条样式并添加 ``{task.completed}/{task.total}`` 字段。"
 
-#: ../../changelog.rst:213
+#: ../../changelog.rst:234
+msgid "Fixed partial issues with the :func:`~.type_checker` decorator."
+msgstr "修复 :func:`~.type_checker` 装饰器的部分问题。"
+
+#: ../../changelog.rst:237
 msgid "CodeVideoRenderer 1.0.9"
 msgstr "CodeVideoRenderer 1.0.9"
 
-#: ../../changelog.rst:215
+#: ../../changelog.rst:239
 msgid "**Date**: Nov 16, 2025"
 msgstr "**日期**：2025年11月16日"
 
-#: ../../changelog.rst:217
+#: ../../changelog.rst:241
 msgid "See details at https://pypi.org/project/codevideorenderer/1.0.9/."
 msgstr "详情请见 https://pypi.org/project/codevideorenderer/1.0.9/。"
 
-#: ../../changelog.rst:222
+#: ../../changelog.rst:246
 msgid ""
 "Overhauled and rewrote camera movement logic, and added automatic camera "
 "scaling."
 msgstr "全面重写镜头移动逻辑，并添加自动镜头缩放功能。"
 
-#: ../../changelog.rst:224
+#: ../../changelog.rst:248
 msgid "Used ``rich`` to print initial data at the start of rendering."
 msgstr "使用 ``rich`` 在渲染开始时打印初始数据。"
 
-#: ../../changelog.rst:226
+#: ../../changelog.rst:250
 msgid "Rewrote the rendering progress bar with ``rich.progress``."
 msgstr "使用 ``rich.progress`` 重写渲染进度条。"
 
-#: ../../changelog.rst:228
+#: ../../changelog.rst:252
 msgid ""
 "Refactored type checking and adopted ``rich.traceback`` for cleaner error "
 "output."
 msgstr "重构类型检查并采用 ``rich.traceback`` 以获得更清晰的错误输出。"
 
-#: ../../changelog.rst:231
+#: ../../changelog.rst:255
 msgid "CodeVideoRenderer 1.0.8.post1"
 msgstr "CodeVideoRenderer 1.0.8.post1"
 
-#: ../../changelog.rst:233 ../../changelog.rst:245
+#: ../../changelog.rst:257 ../../changelog.rst:269
 msgid "**Date**: Nov 8, 2025"
 msgstr "**日期**：2025年11月8日"
 
-#: ../../changelog.rst:235
+#: ../../changelog.rst:259
 msgid ""
 "See details at https://pypi.org/project/codevideorenderer/1.0.8.post1/."
 msgstr "详情请见 https://pypi.org/project/codevideorenderer/1.0.8.post1/。"
 
-#: ../../changelog.rst:240
+#: ../../changelog.rst:264
 msgid "Fixed issues in ``__init__.py``."
 msgstr "修复 ``__init__.py`` 中的问题。"
 
-#: ../../changelog.rst:243
+#: ../../changelog.rst:267
 msgid "CodeVideoRenderer 1.0.8"
 msgstr "CodeVideoRenderer 1.0.8"
 
-#: ../../changelog.rst:247
+#: ../../changelog.rst:271
 msgid "See details at https://pypi.org/project/codevideorenderer/1.0.8/."
 msgstr "详情请见 https://pypi.org/project/codevideorenderer/1.0.8/。"
 
-#: ../../changelog.rst:252
-msgid "Fixed code offset errors."
-msgstr "修复代码偏移错误。"
-
-#: ../../changelog.rst:254
+#: ../../changelog.rst:276
 msgid ""
 "Reverted the default font to Consolas, as Cascadia Code converts ``>=`` to "
 "``≥`` and triggers internal Manim errors."
 msgstr ""
 "将默认字体恢复为 Consolas，因为 Cascadia Code 会将 ``>=`` 转换为 ``≥``，从而触发 Manim 内部错误。"
 
-#: ../../changelog.rst:256
+#: ../../changelog.rst:281
+msgid "Fixed code offset errors."
+msgstr "修复代码偏移错误。"
+
+#: ../../changelog.rst:286
 msgid "Removed unused constants in ``/renderer/config.py``."
 msgstr "移除 ``/renderer/config.py`` 中未使用的常量。"
 
-#: ../../changelog.rst:259
+#: ../../changelog.rst:289
 msgid "CodeVideoRenderer 1.0.7.post3"
 msgstr "CodeVideoRenderer 1.0.7.post3"
 
-#: ../../changelog.rst:261 ../../changelog.rst:273
+#: ../../changelog.rst:291 ../../changelog.rst:303
 msgid "**Date**: Nov 6, 2025"
 msgstr "**日期**：2025年11月6日"
 
-#: ../../changelog.rst:263
+#: ../../changelog.rst:293
 msgid ""
 "See details at https://pypi.org/project/codevideorenderer/1.0.7.post3/."
 msgstr "详情请见 https://pypi.org/project/codevideorenderer/1.0.7.post3/。"
 
-#: ../../changelog.rst:268
+#: ../../changelog.rst:298
 msgid ""
 "Re-uploaded complete source code due to incomplete package upload on pip."
 msgstr "由于 pip 上包上传不完整，重新上传完整源代码。"
 
-#: ../../changelog.rst:271
+#: ../../changelog.rst:301
 msgid "CodeVideoRenderer 1.0.7.post2"
 msgstr "CodeVideoRenderer 1.0.7.post2"
 
-#: ../../changelog.rst:275
+#: ../../changelog.rst:305
 msgid ""
 "See details at https://pypi.org/project/codevideorenderer/1.0.7.post2/."
 msgstr "详情请见 https://pypi.org/project/codevideorenderer/1.0.7.post2/。"
 
-#: ../../changelog.rst:280
+#: ../../changelog.rst:310
+msgid "Disabled Manim caching to improve rendering speed."
+msgstr "禁用 Manim 缓存以提高渲染速度。"
+
+#: ../../changelog.rst:315
 msgid ""
 "Fixed rendering errors triggered by blank lines at the start of code "
 "content."
 msgstr "修复代码内容开头空行触发的渲染错误。"
 
-#: ../../changelog.rst:282
-msgid "Disabled Manim caching to improve rendering speed."
-msgstr "禁用 Manim 缓存以提高渲染速度。"
-
-#: ../../changelog.rst:285
+#: ../../changelog.rst:318
 msgid "CodeVideoRenderer 1.0.7.post1"
 msgstr "CodeVideoRenderer 1.0.7.post1"
 
-#: ../../changelog.rst:287 ../../changelog.rst:299
+#: ../../changelog.rst:320 ../../changelog.rst:332
 msgid "**Date**: Oct 3, 2025"
 msgstr "**日期**：2025年10月3日"
 
-#: ../../changelog.rst:289
+#: ../../changelog.rst:322
 msgid ""
 "See details at https://pypi.org/project/codevideorenderer/1.0.7.post1/."
 msgstr "详情请见 https://pypi.org/project/codevideorenderer/1.0.7.post1/。"
 
-#: ../../changelog.rst:294
+#: ../../changelog.rst:327
 msgid "Resolved bugs occurring when using the ``code_file`` parameter."
 msgstr "解决使用 ``code_file`` 参数时出现的错误。"
 
-#: ../../changelog.rst:297
+#: ../../changelog.rst:330
 msgid "CodeVideoRenderer 1.0.7"
 msgstr "CodeVideoRenderer 1.0.7"
 
-#: ../../changelog.rst:301
+#: ../../changelog.rst:334
 msgid "See details at https://pypi.org/project/codevideorenderer/1.0.7/."
 msgstr "详情请见 https://pypi.org/project/codevideorenderer/1.0.7/。"
 
-#: ../../changelog.rst:306
+#: ../../changelog.rst:339
 msgid "Updated pip dependency configuration."
 msgstr "更新 pip 依赖配置。"
 
-#: ../../changelog.rst:308
+#: ../../changelog.rst:341
 msgid ""
 "Changed parameter ``camera_floating_maximum_value`` to "
 "``camera_floating_max_value``, ``screen_scale`` to ``camera_scale``."
@@ -646,27 +651,23 @@ msgstr ""
 "将参数 ``camera_floating_maximum_value`` 改为 "
 "``camera_floating_max_value``，``screen_scale`` 改为 ``camera_scale``。"
 
-#: ../../changelog.rst:310
+#: ../../changelog.rst:343
 msgid "Improved error message presentation."
 msgstr "改进错误信息展示。"
 
-#: ../../changelog.rst:313
+#: ../../changelog.rst:346
 msgid "CodeVideoRenderer 1.0.6"
 msgstr "CodeVideoRenderer 1.0.6"
 
-#: ../../changelog.rst:315
+#: ../../changelog.rst:348
 msgid "**Date**: Sep 27, 2025"
 msgstr "**日期**：2025年9月27日"
 
-#: ../../changelog.rst:317
+#: ../../changelog.rst:350
 msgid "See details at https://pypi.org/project/codevideorenderer/1.0.6/."
 msgstr "详情请见 https://pypi.org/project/codevideorenderer/1.0.6/。"
 
-#: ../../changelog.rst:322
-msgid "Fixed progress bar formatting errors caused by overly long code lines."
-msgstr "修复过长代码行导致的进度条格式化错误。"
-
-#: ../../changelog.rst:324
+#: ../../changelog.rst:355
 msgid ""
 "Refactored the renderer module: optimized the structure and error handling "
 "of CodeVideoRenderer (see `#1 "
@@ -675,248 +676,483 @@ msgstr ""
 "重构渲染器模块：优化 CodeVideoRenderer 的结构和错误处理（详见 `#1 "
 "<https://github.com/ExploreMaths/CodeVideoRenderer/pull/1>`_）。"
 
-#: ../../changelog.rst:327
+#: ../../changelog.rst:360
+msgid "Fixed progress bar formatting errors caused by overly long code lines."
+msgstr "修复过长代码行导致的进度条格式化错误。"
+
+#: ../../changelog.rst:363
 msgid "CodeVideoRenderer 1.0.5.post2"
 msgstr "CodeVideoRenderer 1.0.5.post2"
 
-#: ../../changelog.rst:329
+#: ../../changelog.rst:365
 msgid "**Date**: Sep 25, 2025"
 msgstr "**日期**：2025年9月25日"
 
-#: ../../changelog.rst:331
+#: ../../changelog.rst:367
 msgid ""
 "See details at https://pypi.org/project/codevideorenderer/1.0.5.post2/."
 msgstr "详情请见 https://pypi.org/project/codevideorenderer/1.0.5.post2/。"
 
-#: ../../changelog.rst:336
+#: ../../changelog.rst:372
 msgid ""
 "Fixed version compatibility issues of pip dependencies to ensure full "
 "compliance with project requirements."
 msgstr "修复 pip 依赖的版本兼容性问题，确保完全符合项目要求。"
 
-#: ../../changelog.rst:338
+#: ../../changelog.rst:374
 msgid ""
 "Resolved inconsistent color display of ANSI escape sequences in rendering "
 "outputs across different terminals/compilers."
 msgstr "解决不同终端/编译器中渲染输出 ANSI 转义序列颜色显示不一致的问题。"
 
-#: ../../changelog.rst:341
+#: ../../changelog.rst:377
 msgid "CodeVideoRenderer 1.0.5.post1"
 msgstr "CodeVideoRenderer 1.0.5.post1"
 
-#: ../../changelog.rst:343
+#: ../../changelog.rst:379
 msgid "**Date**: Sep 23, 2025"
 msgstr "**日期**：2025年9月23日"
 
-#: ../../changelog.rst:345
+#: ../../changelog.rst:381
 msgid ""
 "See details at https://pypi.org/project/codevideorenderer/1.0.5.post1/."
 msgstr "详情请见 https://pypi.org/project/codevideorenderer/1.0.5.post1/。"
 
-#: ../../changelog.rst:350
+#: ../../changelog.rst:386
 msgid "Fixed pip installation failures."
 msgstr "修复 pip 安装失败问题。"
 
-#: ../../changelog.rst:353
+#: ../../changelog.rst:389
 msgid "CodeVideoRenderer 1.0.5"
 msgstr "CodeVideoRenderer 1.0.5"
 
-#: ../../changelog.rst:355
+#: ../../changelog.rst:391
 msgid "**Date**: Sep 20, 2025"
 msgstr "**日期**：2025年9月20日"
 
-#: ../../changelog.rst:357
+#: ../../changelog.rst:393
 msgid "See details at https://pypi.org/project/codevideorenderer/1.0.5/."
 msgstr "详情请见 https://pypi.org/project/codevideorenderer/1.0.5/。"
 
-#: ../../changelog.rst:362
+#: ../../changelog.rst:398
 msgid ""
 "Added the new ``output`` parameter to the :meth:`~.render` method to control"
 " rendering output behavior."
 msgstr "向 :meth:`~.render` 方法添加新的 ``output`` 参数以控制渲染输出行为。"
 
-#: ../../changelog.rst:364
+#: ../../changelog.rst:403
 msgid ""
 "Refactored ``CodeVideo`` from a function to a class for better code "
 "maintainability and scalability."
 msgstr "将 ``CodeVideo`` 从函数重构为类，以提高代码的可维护性和可扩展性。"
 
-#: ../../changelog.rst:367
+#: ../../changelog.rst:406
 msgid "CodeVideoRenderer 1.0.4"
 msgstr "CodeVideoRenderer 1.0.4"
 
-#: ../../changelog.rst:369
+#: ../../changelog.rst:408
 msgid "**Date**: Sep 6, 2025"
 msgstr "**日期**：2025年9月6日"
 
-#: ../../changelog.rst:371
+#: ../../changelog.rst:410
 msgid "See details at https://pypi.org/project/codevideorenderer/1.0.4/."
 msgstr "详情请见 https://pypi.org/project/codevideorenderer/1.0.4/。"
 
-#: ../../changelog.rst:376
-msgid "Fixed calculation errors of rendering duration."
-msgstr "修复渲染时长计算错误。"
-
-#: ../../changelog.rst:378
-msgid "Removed the deprecated ``font`` parameter."
-msgstr "移除已弃用的 ``font`` 参数。"
-
-#: ../../changelog.rst:380
+#: ../../changelog.rst:415
 msgid "Optimized terminal rendering logs."
 msgstr "优化终端渲染日志。"
 
-#: ../../changelog.rst:382
+#: ../../changelog.rst:417
 msgid "Improved overall code execution efficiency."
 msgstr "提高整体代码执行效率。"
 
-#: ../../changelog.rst:385
+#: ../../changelog.rst:422
+msgid "Fixed calculation errors of rendering duration."
+msgstr "修复渲染时长计算错误。"
+
+#: ../../changelog.rst:427
+msgid "Removed the deprecated ``font`` parameter."
+msgstr "移除已弃用的 ``font`` 参数。"
+
+#: ../../changelog.rst:430
 msgid "CodeVideoRenderer 1.0.3"
 msgstr "CodeVideoRenderer 1.0.3"
 
-#: ../../changelog.rst:387
+#: ../../changelog.rst:432
 msgid "**Date**: Aug 29, 2025"
 msgstr "**日期**：2025年8月29日"
 
-#: ../../changelog.rst:389
+#: ../../changelog.rst:434
 msgid "See details at https://pypi.org/project/codevideorenderer/1.0.3/."
 msgstr "详情请见 https://pypi.org/project/codevideorenderer/1.0.3/。"
 
-#: ../../changelog.rst:394
-msgid ""
-"Fixed the issue where the cursor failed to pause at the start of new lines."
-msgstr "修复光标未能在新行开头暂停的问题。"
+#: ../../changelog.rst:439
+msgid "Added the new ``line_spacing`` parameter to customize line spacing."
+msgstr "添加新的 ``line_spacing`` 参数以自定义行间距。"
 
-#: ../../changelog.rst:396
+#: ../../changelog.rst:444
 msgid ""
 "Excluded leading and trailing whitespace of each code line from animation "
 "playback to reduce redundant animation duration."
 msgstr "在动画播放中排除每行代码的前导和尾随空白，以减少冗余动画时长。"
 
-#: ../../changelog.rst:398
+#: ../../changelog.rst:446
 msgid "Adjusted the background width of the currently highlighted code line."
 msgstr "调整当前高亮代码行的背景宽度。"
 
-#: ../../changelog.rst:400
-msgid "Added the new ``line_spacing`` parameter to customize line spacing."
-msgstr "添加新的 ``line_spacing`` 参数以自定义行间距。"
-
-#: ../../changelog.rst:402
+#: ../../changelog.rst:448
 msgid "Optimized terminal rendering information output."
 msgstr "优化终端渲染信息输出。"
 
-#: ../../changelog.rst:404
+#: ../../changelog.rst:450
 msgid "Fine-tuned camera movement logic."
 msgstr "微调镜头移动逻辑。"
 
-#: ../../changelog.rst:407
+#: ../../changelog.rst:455
+msgid ""
+"Fixed the issue where the cursor failed to pause at the start of new lines."
+msgstr "修复光标未能在新行开头暂停的问题。"
+
+#: ../../changelog.rst:458
 msgid "CodeVideoRenderer 1.0.2"
 msgstr "CodeVideoRenderer 1.0.2"
 
-#: ../../changelog.rst:409
+#: ../../changelog.rst:460
 msgid "**Date**: Aug 26, 2025"
 msgstr "**日期**：2025年8月26日"
 
-#: ../../changelog.rst:411
+#: ../../changelog.rst:462
 msgid "See details at https://pypi.org/project/codevideorenderer/1.0.2/."
 msgstr "详情请见 https://pypi.org/project/codevideorenderer/1.0.2/。"
 
-#: ../../changelog.rst:414
+#: ../../changelog.rst:467
+msgid "Introduced Pydantic ``@validate_call`` for parameter validation."
+msgstr "引入 Pydantic ``@validate_call`` 进行参数验证。"
+
+#: ../../changelog.rst:468
+msgid ""
+"Added explicit parameters: ``code_string``, ``code_file``, ``font``, "
+"``language``, ``interval_range``, ``camera_floating_maximum_value``, "
+"``camera_move_interval``, ``camera_move_duration``, and ``screen_scale``."
+msgstr ""
+"添加显式参数：``code_string``、``code_file``、``font``、``language``、``interval_range``、``camera_floating_maximum_value``、``camera_move_interval``、``camera_move_duration``"
+" 和 ``screen_scale``。"
+
+#: ../../changelog.rst:469
+msgid "Added rendering time tracking using :func:`time.time`."
+msgstr "使用 :func:`time.time` 添加渲染时间追踪。"
+
+#: ../../changelog.rst:470
+msgid ""
+"Added syntax-highlighted live code preview in terminal output with box "
+"borders and completion marks."
+msgstr "在终端输出中添加带语法高亮的实时代码预览，包含边框和完成标记。"
+
+#: ../../changelog.rst:471
+msgid "Added :meth:`~.replace_empty_chars` to validate non-empty code input."
+msgstr "添加 :meth:`~.replace_empty_chars` 以验证非空代码输入。"
+
+#: ../../changelog.rst:476
+msgid "Replaced ``**kwargs`` with explicit typed parameters."
+msgstr "将 ``**kwargs`` 替换为显式类型参数。"
+
+#: ../../changelog.rst:477
+msgid ""
+"Replaced :meth:`~.has_chinese` check with :meth:`str.isascii` for non-ASCII "
+"character detection."
+msgstr "使用 :meth:`str.isascii` 替换 :meth:`~.has_chinese` 检查以检测非 ASCII 字符。"
+
+#: ../../changelog.rst:478
+msgid "Set default ``formatter_style`` to ``\"material\"``."
+msgstr "将默认 `formatter_style` 设置为 `\" material\\`。"
+
+#: ../../changelog.rst:479
+msgid "Improved occupy-block width calculation."
+msgstr "改进占用块宽度计算。"
+
+#: ../../changelog.rst:480
+msgid ""
+"Overhauled terminal rendering logs with ANSI colors and progress borders."
+msgstr "使用 ANSI 颜色和进度边框全面改版终端渲染日志。"
+
+#: ../../changelog.rst:485
+msgid "Removed the ``speed`` parameter (already removed in 1.0.1.0)."
+msgstr "移除 ``speed`` 参数（已在 1.0.1.0 中移除）。"
+
+#: ../../changelog.rst:486
+msgid "Removed ``has_chinese`` method."
+msgstr "移除 ``has_chinese`` 方法。"
+
+#: ../../changelog.rst:489
 msgid "CodeVideoRenderer 1.0.1.2"
 msgstr "CodeVideoRenderer 1.0.1.2"
 
-#: ../../changelog.rst:416
+#: ../../changelog.rst:491
 msgid "**Date**: Aug 23, 2025"
 msgstr "**日期**：2025年8月23日"
 
-#: ../../changelog.rst:418
+#: ../../changelog.rst:493
 msgid "See details at https://pypi.org/project/codevideorenderer/1.0.1.2/."
 msgstr "详情请见 https://pypi.org/project/codevideorenderer/1.0.1.2/。"
 
-#: ../../changelog.rst:421
+#: ../../changelog.rst:498
+msgid ""
+"Added the :class:`~.LoopMovingCamera` class for continuous smooth camera "
+"tracking without infinite loops."
+msgstr "添加 :class:`~.LoopMovingCamera` 类以实现无无限循环的连续平滑相机跟踪。"
+
+#: ../../changelog.rst:503
+msgid "Changed default ``interval`` from ``0.05`` to ``0.3``."
+msgstr "将默认 ``interval`` 从 ``0.05`` 改为 ``0.3``。"
+
+#: ../../changelog.rst:504
+msgid ""
+"Succeeded output path retrieval using "
+"``self.renderer.file_writer.movie_file_path``."
+msgstr "使用 ``self.renderer.file_writer.movie_file_path`` 成功获取输出路径。"
+
+#: ../../changelog.rst:505
+msgid ""
+"Empty lines and character intervals now use ``random.uniform(interval-0.05, "
+"interval+0.05)``."
+msgstr "空行和字符间隔现在使用 ``random.uniform(interval-0.05, interval+0.05)``。"
+
+#: ../../changelog.rst:510
+msgid ""
+"Removed :meth:`~.move_camera_to_cursor` method (replaced by "
+":class:`~.LoopMovingCamera`)."
+msgstr ""
+"移除 :meth:`~.move_camera_to_cursor` 方法（由 :class:`~.LoopMovingCamera` 替代）。"
+
+#: ../../changelog.rst:511
+msgid "Removed the ASCII table docstring from :meth:`~.construct`."
+msgstr "从 :meth:`~.construct` 中移除 ASCII 表格文档字符串。"
+
+#: ../../changelog.rst:514
 msgid "CodeVideoRenderer 1.0.1.1"
 msgstr "CodeVideoRenderer 1.0.1.1"
 
-#: ../../changelog.rst:423
+#: ../../changelog.rst:516
 msgid "**Date**: Aug 22, 2025"
 msgstr "**日期**：2025年8月22日"
 
-#: ../../changelog.rst:425
+#: ../../changelog.rst:518
 msgid "See details at https://pypi.org/project/codevideorenderer/1.0.1.1/."
 msgstr "详情请见 https://pypi.org/project/codevideorenderer/1.0.1.1/。"
 
-#: ../../changelog.rst:428
+#: ../../changelog.rst:523
+msgid "Added the new ``scale`` parameter to control camera frame scale."
+msgstr "添加新的 ``scale`` 参数以控制相机帧缩放。"
+
+#: ../../changelog.rst:524
+msgid ""
+"Added :meth:`set_z_index` to cursor and code mobjects for proper layering."
+msgstr "为光标和代码 mobject 添加 :meth:`set_z_index` 以实现正确的图层叠加。"
+
+#: ../../changelog.rst:529
+msgid "Reduced cursor width from ``0.005`` to ``0.0005``."
+msgstr "将光标宽度从 ``0.005`` 缩小到 ``0.0005``。"
+
+#: ../../changelog.rst:530
+msgid ""
+"Changed default line number color to ``GREY``; the current line number is "
+"highlighted in ``WHITE``."
+msgstr "将默认行号颜色改为 ``GREY``；当前行号以 ``WHITE`` 高亮显示。"
+
+#: ../../changelog.rst:531
+msgid ""
+"Changed ``code_line_rectangle`` style to filled background color "
+"``#333333``."
+msgstr "将 ``code_line_rectangle`` 样式改为填充背景色 ``#333333``。"
+
+#: ../../changelog.rst:532
+msgid "Improved terminal success message with green ANSI color."
+msgstr "使用绿色 ANSI 颜色改进终端成功消息。"
+
+#: ../../changelog.rst:537
+msgid "Removed the code window (``window``) from the scene."
+msgstr "从场景中移除代码窗口（``window``）。"
+
+#: ../../changelog.rst:540
 msgid "CodeVideoRenderer 1.0.1.0"
 msgstr "CodeVideoRenderer 1.0.1.0"
 
-#: ../../changelog.rst:430
+#: ../../changelog.rst:542
 msgid "**Date**: Aug 19, 2025"
 msgstr "**日期**：2025年8月19日"
 
-#: ../../changelog.rst:432
+#: ../../changelog.rst:544
 msgid "See details at https://pypi.org/project/codevideorenderer/1.0.1.0/."
 msgstr "详情请见 https://pypi.org/project/codevideorenderer/1.0.1.0/。"
 
-#: ../../changelog.rst:435
+#: ../../changelog.rst:549
+msgid "Added minimum interval validation to prevent overly short intervals."
+msgstr "添加最小间隔验证以防止间隔过短。"
+
+#: ../../changelog.rst:550
+msgid "Added ``code_line_rectangle`` to highlight the current code line."
+msgstr "添加 ``code_line_rectangle`` 以高亮当前代码行。"
+
+#: ../../changelog.rst:551
+msgid "Added left-right floating to camera movement."
+msgstr "为相机移动添加左右浮动效果。"
+
+#: ../../changelog.rst:556
+msgid ""
+"Removed the ``speed`` parameter; camera movement now uses a fixed ``0.2`` "
+"second run time."
+msgstr "移除 ``speed`` 参数；相机移动现在使用固定的 ``0.2`` 秒运行时间。"
+
+#: ../../changelog.rst:557
+msgid ""
+"Improved terminal output with ANSI colors, total line count display, and "
+"refined progress bar format."
+msgstr "使用 ANSI 颜色、总行数显示和优化进度条格式改进终端输出。"
+
+#: ../../changelog.rst:558
+msgid "Translated comments and docstrings from Chinese to English."
+msgstr "将注释和文档字符串从中文翻译为英文。"
+
+#: ../../changelog.rst:559
+msgid ""
+"Merged :meth:`~.successfully_rendered_info` logic into the :meth:`~.render` "
+"method."
+msgstr "将 :meth:`~.successfully_rendered_info` 逻辑合并到 :meth:`~.render` 方法中。"
+
+#: ../../changelog.rst:562
 msgid "CodeVideoRenderer 1.0.0.5"
 msgstr "CodeVideoRenderer 1.0.0.5"
 
-#: ../../changelog.rst:437
+#: ../../changelog.rst:564
 msgid "**Date**: Aug 18, 2025"
 msgstr "**日期**：2025年8月18日"
 
-#: ../../changelog.rst:439
+#: ../../changelog.rst:566
 msgid "See details at https://pypi.org/project/codevideorenderer/1.0.0.5/."
 msgstr "详情请见 https://pypi.org/project/codevideorenderer/1.0.0.5/。"
 
-#: ../../changelog.rst:442
+#: ../../changelog.rst:571
+msgid ""
+"Added :meth:`~.has_chinese` method to detect Chinese characters and "
+"punctuation."
+msgstr "添加 :meth:`~.has_chinese` 方法以检测中文字符和标点。"
+
+#: ../../changelog.rst:572
+msgid "Added the ``code_file`` parameter to read code from a file."
+msgstr "添加 ``code_file`` 参数以从文件读取代码。"
+
+#: ../../changelog.rst:573
+msgid "Added automatic Tab-to-spaces conversion (4 spaces)."
+msgstr "添加自动 Tab 转空格转换（4 个空格）。"
+
+#: ../../changelog.rst:574
+msgid "Added handling for empty code lines."
+msgstr "添加对空代码行的处理。"
+
+#: ../../changelog.rst:575
+msgid "Added skipping of leading spaces during animation playback."
+msgstr "在动画播放期间添加前导空格跳过功能。"
+
+#: ../../changelog.rst:576
+msgid ""
+"Added extensive inline comments and an ASCII table docstring in "
+":meth:`~.construct`."
+msgstr "在 :meth:`~.construct` 中添加大量内联注释和 ASCII 表格文档字符串。"
+
+#: ../../changelog.rst:581
+msgid "Renamed parameter ``floating_pos`` to ``floating_camera``."
+msgstr "将参数 ``floating_pos`` 重命名为 ``floating_camera``。"
+
+#: ../../changelog.rst:582
+msgid "Adjusted cursor dimensions (narrower and shorter)."
+msgstr "调整光标尺寸（更窄更短）。"
+
+#: ../../changelog.rst:583
+msgid "Changed initial camera scale from ``0.25`` to ``0.3``."
+msgstr "将初始相机缩放从 ``0.25`` 改为 ``0.3``。"
+
+#: ../../changelog.rst:584
+msgid "Moved :meth:`~.move_camera_to_cursor` definition earlier in the class."
+msgstr "将 :meth:`~.move_camera_to_cursor` 定义移到类中更靠前的位置。"
+
+#: ../../changelog.rst:587
 msgid "CodeVideoRenderer 1.0.0.4"
 msgstr "CodeVideoRenderer 1.0.0.4"
 
-#: ../../changelog.rst:444
+#: ../../changelog.rst:589
 msgid "**Date**: Aug 17, 2025"
 msgstr "**日期**：2025年8月17日"
 
-#: ../../changelog.rst:446
+#: ../../changelog.rst:591
 msgid "See details at https://pypi.org/project/codevideorenderer/1.0.0.4/."
 msgstr "详情请见 https://pypi.org/project/codevideorenderer/1.0.0.4/。"
 
-#: ../../changelog.rst:449
+#: ../../changelog.rst:596
+msgid ""
+"Removed ``main.py``, keeping only ``renderer.py`` as the single entry point."
+msgstr "移除 ``main.py``，仅保留 ``renderer.py`` 作为唯一入口。"
+
+#: ../../changelog.rst:599
 msgid "CodeVideoRenderer 1.0.0.3"
 msgstr "CodeVideoRenderer 1.0.0.3"
 
-#: ../../changelog.rst:451 ../../changelog.rst:458 ../../changelog.rst:465
+#: ../../changelog.rst:601 ../../changelog.rst:610 ../../changelog.rst:619
 msgid "**Date**: Aug 16, 2025"
 msgstr "**日期**：2025年8月16日"
 
-#: ../../changelog.rst:453
-#, fuzzy
+#: ../../changelog.rst:603
 msgid "See details at https://pypi.org/project/codevideorenderer/1.0.0.3/."
-msgstr "详情请见 https://pypi.org/project/codevideorenderer/1.0.0.5/。"
+msgstr "详情请见 https://pypi.org/project/codevideorenderer/1.0.0.3/。"
 
-#: ../../changelog.rst:456
+#: ../../changelog.rst:605 ../../changelog.rst:614
+msgid "Re-uploaded package with no code changes."
+msgstr "重新上传包，无代码变更。"
+
+#: ../../changelog.rst:608
 msgid "CodeVideoRenderer 1.0.0.2"
 msgstr "CodeVideoRenderer 1.0.0.2"
 
-#: ../../changelog.rst:460
+#: ../../changelog.rst:612
 msgid "See details at https://pypi.org/project/codevideorenderer/1.0.0.2/."
 msgstr "详情请见 https://pypi.org/project/codevideorenderer/1.0.0.2/。"
 
-#: ../../changelog.rst:463
+#: ../../changelog.rst:617
 msgid "CodeVideoRenderer 1.0.0.1"
 msgstr "CodeVideoRenderer 1.0.0.1"
 
-#: ../../changelog.rst:467
+#: ../../changelog.rst:621
 msgid "See details at https://pypi.org/project/codevideorenderer/1.0.0.1/."
 msgstr "详情请见 https://pypi.org/project/codevideorenderer/1.0.0.1/。"
 
-#: ../../changelog.rst:470
+#: ../../changelog.rst:626
+msgid ""
+"Added ``renderer.py`` (a copy of ``main.py``) as the primary renderer "
+"module."
+msgstr "添加 ``renderer.py``（``main.py`` 的副本）作为主要渲染器模块。"
+
+#: ../../changelog.rst:631
+msgid ""
+"Changed ``__init__.py`` to import from ``renderer`` instead of ``main``."
+msgstr "将 ``__init__.py`` 改为从 ``renderer`` 而非 ``main`` 导入。"
+
+#: ../../changelog.rst:634
 msgid "CodeVideoRenderer 1.0.0.0"
 msgstr "CodeVideoRenderer 1.0.0.0"
 
-#: ../../changelog.rst:472
+#: ../../changelog.rst:636
 msgid "**Date**: Aug 15, 2025"
 msgstr "**日期**：2025年8月15日"
 
-#: ../../changelog.rst:474
+#: ../../changelog.rst:638
 msgid "See details at https://pypi.org/project/codevideorenderer/1.0.0.0/."
 msgstr "详情请见 https://pypi.org/project/codevideorenderer/1.0.0.0/。"
+
+#: ../../changelog.rst:640
+msgid "Initial release of CodeVideoRenderer."
+msgstr "CodeVideoRenderer 的初始版本。"
+
+#~ msgid "What's Changed"
+#~ msgstr "变更内容"
+
+#~ msgid "**Changes 🧹**"
+#~ msgstr "**变更 🧹**"

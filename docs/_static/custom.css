@@ -31,3 +31,111 @@ body[data-theme="dark"] {
     margin-top: 1.5rem;
     margin-bottom: 0.75rem;
 }
+
+/* ────────────────────────────────────────────────────────────────
+   Custom admonitions for changelog categories
+   ──────────────────────────────────────────────────────────────── */
+
+/* Additions 🚀 */
+.admonition.additions {
+    border-color: #059669;
+}
+.admonition.additions > .admonition-title {
+    color: #047857;
+    background-color: rgba(5, 150, 105, 0.1);
+}
+.admonition.additions > .admonition-title::before {
+    mask-image: none;
+    -webkit-mask-image: none;
+    background: none;
+    content: "🚀";
+    width: auto;
+    height: auto;
+    font-size: 1rem;
+    line-height: 1;
+}
+body[data-theme="dark"] .admonition.additions {
+    border-color: #34d399;
+}
+body[data-theme="dark"] .admonition.additions > .admonition-title {
+    color: #6ee7b7;
+    background-color: rgba(52, 211, 153, 0.15);
+}
+
+/* Changes 🧹 */
+.admonition.changes {
+    border-color: #2563eb;
+}
+.admonition.changes > .admonition-title {
+    color: #1d4ed8;
+    background-color: rgba(37, 99, 235, 0.1);
+}
+.admonition.changes > .admonition-title::before {
+    mask-image: none;
+    -webkit-mask-image: none;
+    background: none;
+    content: "🧹";
+    width: auto;
+    height: auto;
+    font-size: 1rem;
+    line-height: 1;
+}
+body[data-theme="dark"] .admonition.changes {
+    border-color: #60a5fa;
+}
+body[data-theme="dark"] .admonition.changes > .admonition-title {
+    color: #93c5fd;
+    background-color: rgba(96, 165, 250, 0.15);
+}
+
+/* Fixes 🐛 */
+.admonition.fixes {
+    border-color: #d97706;
+}
+.admonition.fixes > .admonition-title {
+    color: #b45309;
+    background-color: rgba(217, 119, 6, 0.1);
+}
+.admonition.fixes > .admonition-title::before {
+    mask-image: none;
+    -webkit-mask-image: none;
+    background: none;
+    content: "🐛";
+    width: auto;
+    height: auto;
+    font-size: 1rem;
+    line-height: 1;
+}
+body[data-theme="dark"] .admonition.fixes {
+    border-color: #fbbf24;
+}
+body[data-theme="dark"] .admonition.fixes > .admonition-title {
+    color: #fcd34d;
+    background-color: rgba(251, 191, 36, 0.15);
+}
+
+/* Deletions 🗑️ */
+.admonition.deletions {
+    border-color: #dc2626;
+}
+.admonition.deletions > .admonition-title {
+    color: #b91c1c;
+    background-color: rgba(220, 38, 38, 0.1);
+}
+.admonition.deletions > .admonition-title::before {
+    mask-image: none;
+    -webkit-mask-image: none;
+    background: none;
+    content: "🗑️";
+    width: auto;
+    height: auto;
+    font-size: 1rem;
+    line-height: 1;
+}
+body[data-theme="dark"] .admonition.deletions {
+    border-color: #f87171;
+}
+body[data-theme="dark"] .admonition.deletions > .admonition-title {
+    color: #fca5a5;
+    background-color: rgba(248, 113, 113, 0.15);
+}
